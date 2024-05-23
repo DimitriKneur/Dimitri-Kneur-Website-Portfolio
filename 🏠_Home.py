@@ -1,6 +1,5 @@
 import streamlit as st
 import base64
-from pathlib import Path
 from PIL import Image
 import io
 
