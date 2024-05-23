@@ -24,7 +24,7 @@ def img_to_bytes(img_path, width=300):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-def img_to_html(img_path, width=222):
+def img_to_html(img_path, width=200):
     # Appeler img_to_bytes pour obtenir les bytes de l'image redimensionnée
     img_bytes = img_to_bytes(img_path, width)
     # Créer la balise HTML avec l'image redimensionnée
@@ -36,9 +36,9 @@ st.markdown("<h1 style='text-align: center; color: black;'>💬 Contact</h1>", u
 
 st.write("")
 
-st.write("")
-
 st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('assets/profile_picture.png')+"</p>", unsafe_allow_html=True)
+
+st.write("")
 
 # Social Icons
 social_icons_data = {

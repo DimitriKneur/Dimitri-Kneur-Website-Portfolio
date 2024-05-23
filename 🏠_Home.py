@@ -24,7 +24,7 @@ def img_to_bytes(img_path, width=300):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-def img_to_html(img_path, width=222):
+def img_to_html(img_path, width=200):
     # Appeler img_to_bytes pour obtenir les bytes de l'image redimensionnée
     img_bytes = img_to_bytes(img_path, width)
     # Créer la balise HTML avec l'image redimensionnée
@@ -32,14 +32,30 @@ def img_to_html(img_path, width=222):
         img_bytes, width)
     return img_html
 
-st.markdown("<h1 style='text-align: center; color: black;'>Welcome to my website 👋🏽</h1>", unsafe_allow_html=True)
-
-st.write("")
-
-st.write("")
-
 st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('assets/profile_picture.png')+"</p>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: black;'>Dimitri Kneur, Data Analyst</h2>", unsafe_allow_html=True)
+
+# Custom CSS for container
+st.markdown("""
+    <style>
+    .custom-container {
+        width: 70%;
+        margin: auto;
+        border: 1px solid #e6e6e6;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Add content to the container
+st.markdown("""
+    <div class="custom-container">
+        <p>👋🏽 Hello! I am Dimitri Kneur, a Data Analyst with three years of experience in audit and management control. I have mastered SQL, Python, Power BI, and many other tools through an intensive training program. I am now ready to put my analytical skills to work for a data-driven company.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.write(' ')
 
 # Social Icons
 social_icons_data = {
