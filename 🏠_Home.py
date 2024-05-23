@@ -6,4 +6,14 @@ left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     st.image('assets/profile_picture.png', width=300)
 
+st.write("")
+
+st.write("")
+
+st.write("")
+
+st.write("")
+
+st.write("")
+
 st.markdown("<h2 style='text-align: center; color: black;'> Dimitr Kneur, Data Analyst</h2>", unsafe_allow_html=True)
