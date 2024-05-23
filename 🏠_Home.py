@@ -5,11 +5,4 @@ st.markdown("<h1 style='text-align: center; color: black;'>Welcome to my website
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     st.image('assets/profile_picture.png', width=300)
-
-st.write("")
-
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.markdown("<h2 style='text-align: center; color: black;'>Dimitr Kneur, Data Analyst</h2>", unsafe_allow_html=True)
-
 st.markdown("<h2 style='text-align: center; color: black;'>Dimitr Kneur, Data Analyst</h2>", unsafe_allow_html=True)
