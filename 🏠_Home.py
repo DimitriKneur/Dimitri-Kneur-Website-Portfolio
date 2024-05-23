@@ -8,4 +8,8 @@ with cent_co:
 
 st.write("")
 
-st.markdown("<h2 style='text-align: center; color: black;'> Dimitr Kneur, Data Analyst</h2>", unsafe_allow_html=True)
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.write('Dimitr Kneur, Data Analyst')
+
+st.markdown("<h2 style='text-align: center; color: black;'>Dimitr Kneur, Data Analyst</h2>", unsafe_allow_html=True)
