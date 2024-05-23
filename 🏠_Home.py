@@ -12,8 +12,4 @@ st.write("")
 
 st.write("")
 
-st.write("")
-
-st.write("")
-
 st.markdown("<h2 style='text-align: center; color: black;'> Dimitr Kneur, Data Analyst</h2>", unsafe_allow_html=True)
