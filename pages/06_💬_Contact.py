@@ -9,6 +9,8 @@ st.set_page_config(page_title="My Portfolio Website",
                    page_icon=":rocket:", 
                    layout="wide")
 
+st.header("Contact", divider="red")
+
 def img_to_bytes(img_path, width=300):
     # Ouvrir l'image avec Pillow
     img = Image.open(img_path)
@@ -31,8 +33,6 @@ def img_to_html(img_path, width=200):
     img_html = "<img src='data:image/png;base64,{}' style='width:{}px;'>".format(
         img_bytes, width)
     return img_html
-
-st.markdown("<h1 style='text-align: center; color: black;'>💬 Contact</h1>", unsafe_allow_html=True)
 
 st.write("")
 
