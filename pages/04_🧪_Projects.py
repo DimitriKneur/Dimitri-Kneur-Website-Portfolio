@@ -1,7 +1,4 @@
 import streamlit as st
-from PIL import Image
-from pathlib import Path
-import base64
 
 st.set_page_config(page_title="My Portfolio Website", 
                    page_icon=":rocket:")
