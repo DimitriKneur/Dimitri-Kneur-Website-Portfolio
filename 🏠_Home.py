@@ -51,7 +51,7 @@ st.markdown("""
 # Add content to the container
 st.markdown("""
     <div class="custom-container">
-        <p>👋🏽 Hello! I am Dimitri Kneur, a Data Analyst with three years of experience in audit and management control. I have mastered SQL, Python, Power BI, and many other tools through an intensive training program. I am now ready to put my analytical skills to work for a data-driven company.</p>
+        <p>👋🏽 Hello! I am Dimitri Kneur, a Data Analyst with 3 years of experience in audit and management control. I have mastered SQL, Python, Power BI, and many other tools through an intensive training program. I am now ready to put my analytical skills to work for a data-driven company.</p>
     </div>
     """, unsafe_allow_html=True)
 
