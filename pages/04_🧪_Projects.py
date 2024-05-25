@@ -12,7 +12,7 @@ st.write(' ')
 with st.container():
     selected = option_menu(
         menu_title = None,
-        options = ['Power BI Interactive Sales Dashboard', 'Power BI Netflix Catalog Analysis', "World Population's Evolution", 'Le Louvre Museum Artworks Application'],
+        options = ['Power BI Sales Dashboard', 'Power BI Netflix Catalog Analysis', "World Population's Evolution", 'Le Louvre Museum Artworks Application'],
         orientation = 'horizontal',
         icons = ['clipboard2-data-fill', 'film', 'graph-up', 'table']
     )
@@ -53,7 +53,7 @@ if selected == "World Population's Evolution":
     with text_column:
         st.write("### [World Population's Evolution](https://github.com/DimitriKneur/World-Population-Evolution-Project/tree/main)")
         st.write("##### Analysis of the world population's evolution.")
-        st.write("- Highlight the global trend of world population's evolution through the years  \n- Identify which are the reasons for this evolution  \n- Understand the birth rate drivers  \n- Understand the death rate drivers  \n- Compare the population's evolution by geographic area  \n- Show the impact of this evolution on the population's demographic structure")
+        st.write("- Highlight the global trend of world population's evolution over the years  \n- Identify which are the reasons for this evolution  \n- Understand the birth rate drivers  \n- Understand the death rate drivers  \n- Compare the population's evolution by geographic area  \n- Show the impact over the population's demographic structure")
 
 
 if selected == 'Le Louvre Museum Artworks Application':
