@@ -18,7 +18,7 @@ with st.container():
     )
 
 if selected == 'Power BI Sales Dashboard':
-    
+     
     image_column, text_column = st.columns((2.42,3), gap='medium')
     with image_column:
         st.write('')
