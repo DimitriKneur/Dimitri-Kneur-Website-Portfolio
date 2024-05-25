@@ -24,7 +24,7 @@ with st.container():
         st.image(jedha, width=120)
 
     with text_column:
-        st.write("### Teacher Assistant")
+        st.write("### Teacher Assistant - Data Analysis")
         st.write("##### [_Jedha_](https://www.jedha.co/) | From 2024 | Paris, France")
         st.write("""¤ Lead and supervise tutorial sessions in the 'Fullstack Data Analysis' program  \n¤ Contribute to the continuous improvement of course content and program exercises""")
 
