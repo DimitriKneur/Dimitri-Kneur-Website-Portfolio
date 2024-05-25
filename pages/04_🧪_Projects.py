@@ -7,7 +7,7 @@ st.set_page_config(page_title="Dimitri Kneur Website",
 st.header("Projects", divider="red")
 
 st.markdown("""
-    <h3 style='text-align: center; color: black;'>
+    <h3 style='text-align: center;'>
         ¤
         <a href="https://github.com/DimitriKneur/Global-Electronics-Retailer-Analysis">
             Interactive Power BI sales dashboard
@@ -29,7 +29,7 @@ with col3:
 
 st.write(' ')
 
-st.markdown("""<h3 style='text-align: center; color: black;'>¤ <a href="https://github.com/DimitriKneur/Netflix-Catalog-Analysis-PowerBI">Analysis of the catalog of Netflix with Power BI</a></h3>""", unsafe_allow_html=True)
+st.markdown("""<h3 style='text-align: center;'>¤ <a href="https://github.com/DimitriKneur/Netflix-Catalog-Analysis-PowerBI">Analysis of the catalog of Netflix with Power BI</a></h3>""", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -44,7 +44,7 @@ with col3:
 
 st.write(' ')
 
-st.markdown("""<h3 style='text-align: center; color: black;'>¤ <a href="https://github.com/DimitriKneur/World-Population-Evolution-Project/tree/main">Analysis of the world population's evolution</a></h3>""", unsafe_allow_html=True)
+st.markdown("""<h3 style='text-align: center; '>¤ <a href="https://github.com/DimitriKneur/World-Population-Evolution-Project/tree/main">Analysis of the world population's evolution</a></h3>""", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -59,7 +59,7 @@ with col3:
 
 st.write(' ')
 
-st.markdown("""<h3 style='text-align: center; color: black;'>¤ <a href="https://github.com/DimitriKneur/Le-Louvre-works-of-art-on-display/tree/main">Application listing the artworks at the Louvre Museum</a></h3>""", unsafe_allow_html=True)
+st.markdown("""<h3 style='text-align: center;'>¤ <a href="https://github.com/DimitriKneur/Le-Louvre-works-of-art-on-display/tree/main">Application listing the artworks at the Louvre Museum</a></h3>""", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -75,7 +75,7 @@ with col3:
 st.write(' ')
 
 st.markdown("""
-    <h3 style='text-align: center; color: black;'>
+    <h3 style='text-align: center;'>
         Do you want to have a closer look at all my projects? 
         Follow this <a href="https://github.com/DimitriKneur/Data-Projects/blob/main/README.md">link</a>.
     </h3>

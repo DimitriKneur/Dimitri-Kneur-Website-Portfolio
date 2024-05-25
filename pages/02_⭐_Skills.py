@@ -24,7 +24,7 @@ data_visualization = load_lottieurl("https://lottie.host/e81c9f38-e5b6-4e78-ad06
 col1, col2, col3, col4 = st.columns((1, 1, 1, 1), gap='large')
 
 with col1:
-    st.markdown("<h3 style='text-align: left; color: black;'>Data Collection</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left; '>Data Collection</h3>", unsafe_allow_html=True)
     st_lottie(data_collection, width=180)
     st.markdown("""
     <div style='text-align: justify;'>
@@ -41,7 +41,7 @@ with col1:
 
 
 with col2:
-    st.markdown("<h3 style='text-align: left; color: black;'>Data Cleaning</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left;'>Data Cleaning</h3>", unsafe_allow_html=True)
     st_lottie(data_cleaning, width=180)
     st.markdown("""
     <div style='text-align: justify;'>
@@ -56,7 +56,7 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col3:
-    st.markdown("<h3 style='text-align: left; color: black;'>Data Exploration</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left;'>Data Exploration</h3>", unsafe_allow_html=True)
     st_lottie(data_exploration, width=152)
     st.markdown("""
     <div style='text-align: justify;'>
@@ -71,7 +71,7 @@ with col3:
     """, unsafe_allow_html=True)
 
 with col4:
-    st.markdown("<h3 style='text-align: center; color: black;'>Data Viz.</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; '>Data Viz.</h3>", unsafe_allow_html=True)
     st.write("")
     st.write("")
     st_lottie(data_visualization, width=200)

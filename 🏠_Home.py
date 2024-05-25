@@ -33,7 +33,7 @@ def img_to_html(img_path, width=200):
     return img_html
 
 st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('assets/profile_picture.png')+"</p>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: black;'>Dimitri Kneur, Data Analyst</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Dimitri Kneur, Data Analyst</h2>", unsafe_allow_html=True)
 
 # Custom CSS for container
 st.markdown("""

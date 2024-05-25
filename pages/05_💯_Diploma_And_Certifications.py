@@ -8,7 +8,7 @@ st.set_page_config(page_title="Dimitri Kneur Website",
 
 st.header("Diploma And Certifications", divider="red")
 
-st.markdown("<h2 style='text-align: center; color: black;'>👨🏾‍🎓 Diploma</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>👨🏾‍🎓 Diploma</h2>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns((1, 1, 1))
 
@@ -22,7 +22,7 @@ with col3:
     st.write(' ')
 
 
-st.markdown("<h2 style='text-align: center; color: black;'>🥇 Certifications</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; '>🥇 Certifications</h2>", unsafe_allow_html=True)
 
 bol1, bol2, bol3, bol4 = st.columns((1, 1, 1, 1))
 
