@@ -17,7 +17,7 @@ with st.container():
         icons = ['clipboard2-data-fill', 'film', 'graph-up', 'table']
     )
 
-if selected == 'Power BI Interactive Sales Dashboard':
+if selected == 'Power BI Sales Dashboard':
     
     image_column, text_column = st.columns((2.42,3), gap='medium')
     with image_column:
