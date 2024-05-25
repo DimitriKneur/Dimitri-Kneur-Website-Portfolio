@@ -37,3 +37,12 @@ with st.container():
         st.write("### Master's Degree in Business Administration, [_Audencia_](https://www.audencia.com/) (2015 - 2019)")
         st.write("##### Main course: Corporate Finance")
         st.write("**Relevant Coursework:** Management Control, Financial Analysis, Cash Management and Derivatives, Portfolio management....")
+
+st.write("")
+
+st.markdown("""
+    <div style='text-align: left;'>
+        
+    See also <a href="https://dimitri-kneur.streamlit.app/Diploma_And_Certifications" target="_self">my diploma and certifications</a>.
+    </div>
+    """, unsafe_allow_html=True)

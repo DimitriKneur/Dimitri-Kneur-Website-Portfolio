@@ -43,5 +43,5 @@ txt3("Python Libraries & Frameworks","`pandas`, `plotly`, `scrapy`, `streamlit`,
 txt3("Data Sources","`Hubspot`, `Microsoft Azure`, `Amazon S3`")
 txt3("Databases","`MySQL`, `Azure Data Studio`, `Amazon RDS`")
 txt3("Data Lakes / Warehouses","`BigQuery`, `Snowflake`")
-txt3("Data Transformation","`dbt`")
-txt3("Data Visualization Tools","`Power BI`, `Looker Studio`, `Dataiku`")
+txt3("ELT & Data Transformation","`Fivetran`, `dbt`")
+txt3("Data Visualization Tools","`Power BI`, `Looker Studio`, `Dataiku`, `Excel`")
