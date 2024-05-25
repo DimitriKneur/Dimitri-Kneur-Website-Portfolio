@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="My Portfolio Website", 
+st.set_page_config(page_title="Dimitri Kneur Website", 
                    page_icon=":rocket:",
                    layout="wide")
 

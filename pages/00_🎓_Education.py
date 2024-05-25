@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from pathlib import Path
 
-st.set_page_config(page_title="My Portfolio Website", 
+st.set_page_config(page_title="Dimitri Kneur Website", 
                    page_icon=":rocket:", 
                    layout="wide")
 

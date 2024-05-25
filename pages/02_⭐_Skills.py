@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="My Portfolio Website", 
+st.set_page_config(page_title="Dimitri Kneur Website", 
                    page_icon=":rocket:", 
                    layout="wide")
 

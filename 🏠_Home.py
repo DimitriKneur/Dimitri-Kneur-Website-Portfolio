@@ -5,7 +5,7 @@ from pathlib import Path
 from PIL import Image
 import io
 
-st.set_page_config(page_title="My Portfolio Website", 
+st.set_page_config(page_title="Dimitri Kneur Website", 
                    page_icon=":rocket:", 
                    layout="wide")
 

@@ -1,8 +1,9 @@
 import streamlit as st
 from PIL import Image
 from pathlib import Path
+import base64
 
-st.set_page_config(page_title="My Portfolio Website", 
+st.set_page_config(page_title="Dimitri Kneur Website", 
                    page_icon=":rocket:", 
                    layout="wide")
 
@@ -97,3 +98,25 @@ with st.container():
         st.write("### Master's Degree in Business Administration")
         st.write("##### [_Audencia_](https://www.audencia.com/) | 2015 - 2019 | Nantes, France")
         st.write("**Main course:** Corporate Finance")
+
+st.write(' ')
+
+with open("assets/DimitriKneur_CV.pdf", "rb") as pdf_file:
+        pdf_bytes = pdf_file.read()
+
+col1, col2, col3 = st.columns([1, 2, 1])
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.markdown("""
+        <div style='text-align: center;'>
+            <a href="data:application/pdf;base64,{0}" download="DimitriKneur_CV.pdf">
+                <button style="padding: 10px 20px;">📄 Download my CV</button>
+            </a>
+        </div>
+    """.format(base64.b64encode(pdf_bytes).decode()), unsafe_allow_html=True)
+
+with col3:
+    st.write(' ')
