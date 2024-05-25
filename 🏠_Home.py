@@ -61,7 +61,7 @@ st.write(' ')
 social_icons_data = {
         # Platform: [URL, Icon]
         "LinkedIn": ["https://www.linkedin.com/in/dimitri-kneur-audencia/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
-        "GitHub": ["https://github.com/DimitriKneur", "https://icon-library.com/images/github-icon-vector/github-icon-vector-0.jpg"]
+        "GitHub": ["https://github.com/DimitriKneur", "https://icon-library.com/images/github-icon-white/github-icon-white-5.jpg"]
         }
 
 social_icons_html = [f"<a href='{social_icons_data[platform][0]}' target='_blank' style='margin-right: 10px;'><img class='social-icon' src='{social_icons_data[platform][1]}' alt='{platform}' style='width: 40px;'></a>" for platform in social_icons_data]
