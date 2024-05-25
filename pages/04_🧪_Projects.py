@@ -6,6 +6,8 @@ st.set_page_config(page_title="Dimitri Kneur Website",
 
 st.header("Projects", divider="red")
 
+st.write(' ')
+
 st.markdown("""
     <h3 style='text-align: center;'>
         ¤
@@ -15,6 +17,7 @@ st.markdown("""
     </h3>
     """, unsafe_allow_html=True)
 
+st.write(' ')
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -29,7 +32,11 @@ with col3:
 
 st.write(' ')
 
+st.write(' ')
+
 st.markdown("""<h3 style='text-align: center;'>¤ <a href="https://github.com/DimitriKneur/Netflix-Catalog-Analysis-PowerBI">Analysis of the catalog of Netflix with Power BI</a></h3>""", unsafe_allow_html=True)
+
+st.write(' ')
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -44,7 +51,11 @@ with col3:
 
 st.write(' ')
 
+st.write(' ')
+
 st.markdown("""<h3 style='text-align: center; '>¤ <a href="https://github.com/DimitriKneur/World-Population-Evolution-Project/tree/main">Analysis of the world population's evolution</a></h3>""", unsafe_allow_html=True)
+
+st.write(' ')
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -59,7 +70,11 @@ with col3:
 
 st.write(' ')
 
+st.write(' ')
+
 st.markdown("""<h3 style='text-align: center;'>¤ <a href="https://github.com/DimitriKneur/Le-Louvre-works-of-art-on-display/tree/main">Application listing the artworks at the Louvre Museum</a></h3>""", unsafe_allow_html=True)
+
+st.write(' ')
 
 col1, col2, col3 = st.columns((1, 3.2, 1))
 
@@ -71,6 +86,8 @@ with col2:
 
 with col3:
     st.write(' ')
+
+st.write(' ')
 
 st.write(' ')
 
