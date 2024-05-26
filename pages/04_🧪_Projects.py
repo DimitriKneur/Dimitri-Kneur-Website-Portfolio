@@ -61,7 +61,7 @@ if selected == 'Le Louvre Museum Artworks Application':
     image_column, text_column = st.columns((2.42,3), gap='medium')
     with image_column:
         st.write('')
-        st.image("assets/Demo_streamlit_le_louvre.gif")
+        st.image("assets/Demo_streamlit_le_louvre_2.gif")
 
     with text_column:
         st.write("### [Le Louvre Museum Artworks Application](https://github.com/DimitriKneur/Le-Louvre-works-of-art-on-display/tree/main)")
